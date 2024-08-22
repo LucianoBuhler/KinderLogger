@@ -2,9 +2,9 @@ import glob
 import whatsapp_utils
 from openai import OpenAI
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
 key = os.environ.get("OPENAI_API_KEY")
 client = OpenAI(api_key=key)

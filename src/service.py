@@ -3,10 +3,10 @@ from datetime_utils import *
 from openai import OpenAI
 import os
 import time
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import logging
 
-load_dotenv()
+# load_dotenv()
 
 TODAY = date.today()
 START_OF_WEEK, END_OF_WEEK = get_school_week_bounds(date.today())

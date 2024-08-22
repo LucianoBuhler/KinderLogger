@@ -3,9 +3,9 @@ import time
 import glob
 from openai import OpenAI
 from datetime_utils import *
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
 MODEL = "gpt-3.5-turbo-1106"
 TODAY = date.today()
